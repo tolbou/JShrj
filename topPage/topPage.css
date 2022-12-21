@@ -71,7 +71,7 @@ nav ul li a:hover {
     border-color: #003FE0;
     position: absolute;
     top: 5px;
-    left: 6px;
+    left: 7px;
 }
 
 .contents-image1 img {
@@ -85,7 +85,7 @@ nav ul li a:hover {
 
 .title {
     color: #003FE0;
-    font-family: varta;
+    font-family: 'Varta', sans-serif;
     font-size: 15px;
     width: 204px;
     height: 51px;
@@ -95,7 +95,7 @@ nav ul li a:hover {
 
 .date {
     color: #003FE0;
-    font-family: Varta;
+    font-family: 'Varta', sans-serif;
     font-size: 11px;
     width: 100px;
     height: 12px;
@@ -105,7 +105,7 @@ nav ul li a:hover {
     position: absolute;
     top: 48px;
     left: 16px;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 /* contents2 */
@@ -143,7 +143,7 @@ nav ul li a:hover {
 }
 
 .title2 {
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .title2-1 {
@@ -155,14 +155,13 @@ nav ul li a:hover {
     font-family: varta;
     font-size: 11px;
     line-height: 14px;
-
     color: #003FE0;
 }
 
 .title2-2 {
     width: 390px;
     height: 6px;
-    font-family: Varta;
+    font-family: 'Varta', sans-serif;
     position: absolute;
     top: 213px;
     left: 5px;
