@@ -7,190 +7,161 @@
 body {
     width: 390px;
     font-family: 'Varta', sans-serif;
-    /* border: black 1px solid; */
 }
 
-/* ここからheader */
 .header {
-    height: 80px;
+    height: 165px;
     text-align: center;
-}
-
-.menu-list02 {
-    display: block;
-    margin-left: 110px;
 }
 
 nav ul {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     list-style: none;
     text-align: center;
-    margin: 18px;
+    margin: 18px 18px;
+
 }
 
 nav ul li a {
-    font-size: 20px;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    ;
-    color: #000;
+    color: black;
+    padding: 0px 19px 0px 0px;
     transition: all 0.3s;
 }
 
 nav ul li a:hover {
-    color: blue;
+    color: #003FE0;
+
+    /* color: transparent;
+    text-stroke: 0.5px #003FE0;
+    -webkit-text-stroke: 0.5px #003FE0; */
 }
 
-/* ここからcontents */
+.menu-list-1 {
+    font-size: 20px;
+    line-height: 11px;
+
+}
+
+.menu-list {
+    font-size: 20px;
+    letter-spacing: 0px;
+}
+
+.contact a {
+    padding: 0px 0px;
+}
+
+.header-image {
+    text-align: center;
+}
+
+.header-image img {
+    width: 337px;
+    height: 92px;
+    margin-top: 17px;
+}
+
+/* contents */
+
 .contents {
-    height: 2300;
-
-}
-
-.title {
-    line-height: 38px;
-    font-size: 45px;
-    text-align: center;
-}
-
-.contents-image {
+    height: 500px;
     width: 390px;
+    display: flex;
     text-align: center;
+    /* overflow-x: scroll; */
+    overflow: auto;
+    scrollbar-width: 200px;
+    scroll-snap-type: x mandatory;
+    position: relative;
 }
 
-.image1 {
-    border-top: black 1px solid;
-    width: 390px;
-    margin-top: 30px;
+.contents::-webkit-scrollbar {
+    width: 10px;
+    height: 3px;
+}
+
+.contents1 {
+    width: 336px;
+    height: 450px;
+    text-align: center;
+    margin: 0px 27px;
+    scroll-snap-align: center;
+    border-top: 2px solid;
+    border-color: #060606;
+}
+
+.contents-title {
+    width: 336px;
+    height: 90px;
+}
+
+/* .contents-title h2 span {
+    color: #000000;
+    font-size: 15px;
+} */
+
+
+.contents-title h2 {
+    color: #000000;
+    font-size: 17px;
+    margin-top: 13px;
+}
+
+.contents-items {
+    margin-top: 10px;
+}
+
+.contents-images {
+    width: 336px;
+    height: 299px;
+
+    border: 1px solid;
+    border-color: black;
 }
 
 .image1 img {
-    height: 175px;
-    width: 350px;
+    width: 323px;
+    height: 287px;
+    margin: 5px 5px;
     object-fit: cover;
 }
 
-.image2 {
-    margin-bottom: 25px;
-}
-
-.image2 img {
-    height: 240px;
-    width: 350px;
-    object-fit: cover;
-}
-
-.explaination {
-    width: 350px;
-    text-align: initial;
-
-}
-
-.explaination p {
-    width: 240px;
-    margin-left: 75px;
-    font-size: 10px;
-    font-family: 'Sawarabi Gothic', sans-serif;
-    transform: scale(1.15, 1);
-}
-
-/* .image3 {
-    width: 340px;
-    margin-top: 40px;
-} */
-
-.image3 img {
-    margin-top: 30px;
-    width: 350px;
-    height: 400px;
-    object-fit: cover;
-}
-
-.image4 {
-    width: 350px;
+.date {
     margin-top: 10px;
-    display: flex;
+    font-size: 7px;
 }
 
-.image4-1 img {
-    width: 170px;
-    height: 221px;
-    margin-right: 10px;
-    margin-left: 20px;
-    object-fit: cover;
+.contents::-webkit-scrollbar-track {
+    background: #bababa;
+    border-radius: 5px;
 }
 
-.image4-2 img {
-    width: 170px;
-    height: 221px;
-    object-fit: cover;
+.contents::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border-radius: 5px;
 }
 
-.flore1f {
+/* footer */
+
+.contents-footer {
     width: 390px;
+    height: 350px;
+    margin-top: 70px;
 }
 
-.flore1f p {
-    margin-left: 230px;
-    font-size: 10px;
-    line-height: 12px;
-    /* letter-spacing: -0.5px; */
-}
-
-
-.flore1f p span {
-    margin-left: 75px;
-}
-
-/* .image5 {
-    margin-top: 20px;
-} */
-
-.image5 img {
-    width: 350px;
-    height: 400px;
-    object-fit: cover;
-    margin-top: 25px;
-}
-
-.image6 {
-    width: 350px;
-    margin-top: 10px;
-    display: flex;
-}
-
-.image6-1 img {
-    width: 170px;
-    height: 221px;
-    margin-right: 10px;
-    margin-left: 20px;
+.footer-image img {
+    width: 390px;
+    height: 350px;
     object-fit: cover;
 }
 
-.image6-2 img {
-    width: 170px;
-    height: 221px;
-    object-fit: cover;
-}
-
-/* .date {
-    width: 340px;
-} */
-
-.date p {
-    font-size: 12px;
-    margin: 10px 240px 0px 0px;
-}
-
-
-
-
-
-/* ここからfooter */
 .footer {
-    width: 500px;
+    width: 390px;
     height: 204px;
     text-align: center;
     position: relative;
@@ -198,11 +169,11 @@ nav ul li a:hover {
 }
 
 .border {
-    width: 370px;
+    width: 363px;
     height: 50px;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
-    margin-left: 10px;
+    margin-left: 15px;
     margin-top: 30px;
 }
 
@@ -210,20 +181,20 @@ nav ul li a:hover {
     width: 390px;
     height: 50px;
     position: absolute;
-    top: 5px;
+    top: 7px;
 }
 
-.message p {
+.message h2 {
     font-size: 30px;
-    margin-right: 20px;
 }
 
 .footer-last {
-    width: 390px;
+    width: 100px;
     height: 10px;
+    margin-left: 148px;
     margin-top: 40px;
 }
 
 .footer-last p {
-    font-size: 15px;
+    font-size: 7px;
 }
