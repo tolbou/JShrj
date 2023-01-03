@@ -7,7 +7,7 @@
 body {
     width: 390px;
     font-family: 'Varta', sans-serif;
-    border: black 1px solid;
+    /* border: black 1px solid; */
 }
 
 /* ここからheader */
@@ -89,7 +89,7 @@ nav ul li a:hover {
 }
 
 .explaination p {
-    width: 235px;
+    width: 240px;
     margin-left: 75px;
     font-size: 10px;
     font-family: 'Sawarabi Gothic', sans-serif;
