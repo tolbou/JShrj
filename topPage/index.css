@@ -7,7 +7,7 @@
 body {
     width: 390px;
     font-family: 'Varta', sans-serif;
-    border: 1px black solid;
+    /* border: 1px black solid; */
 }
 
 .header {
