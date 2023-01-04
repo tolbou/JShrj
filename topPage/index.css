@@ -7,7 +7,6 @@
 body {
     width: 390px;
     font-family: 'Varta', sans-serif;
-    /* border: 1px black solid; */
 }
 
 .header {
@@ -85,6 +84,16 @@ nav ul li a:hover {
 .contents::-webkit-scrollbar {
     width: 10px;
     height: 3px;
+}
+
+.contents::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background: #eee;
+}
+
+.contents::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #666;
 }
 
 .contents>div {
@@ -172,7 +181,6 @@ nav ul li a:hover {
     object-fit: cover;
 }
 
-/* ここからfooter */
 .footer {
     width: 500px;
     height: 204px;
