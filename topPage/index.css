@@ -70,15 +70,16 @@ nav ul li a:hover {
 /* contents */
 
 .contents {
-    height: 500px;
-    width: 390px;
-    display: flex;
-    text-align: center;
-    /* overflow-x: scroll; */
-    overflow: auto;
-    scrollbar-width: 200px;
+    /* 以下の設定は必須 */
     scroll-snap-type: x mandatory;
-    position: relative;
+    width: 390px;
+    height: 450px;
+    overflow-x: scroll;
+    display: flex;
+    -webkit-overflow-scrolling: touch;
+    /* スマホ対応のため必須 */
+    overflow-scrolling: touch;
+    /* スマホ対応のため必須 */
 }
 
 .contents::-webkit-scrollbar {
@@ -86,18 +87,30 @@ nav ul li a:hover {
     height: 3px;
 }
 
+.contents>div {
+    scroll-snap-align: center;
+    height: 100%;
+    width: 100%;
+    flex: none;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+}
+
 .contents1 {
-    width: 390px;
-    height: 450px;
+    width: 100%;
+    height: 100%;
     text-align: center;
-    margin: 0px 27px;
+    margin: 0 auto;
     scroll-snap-align: center;
     border-top: 2px solid;
     border-color: #060606;
+
 }
 
+
 .contents-title {
-    width: 336px;
+    width: 100%;
     height: 90px;
 }
 
@@ -113,23 +126,21 @@ nav ul li a:hover {
     margin-top: 13px;
 }
 
-.contents-items {
-    margin-top: 10px;
-}
-
-.contents-images {
+/* 
+.image1 {
     width: 336px;
     height: 299px;
 
-    border: 1px solid;
-    border-color: black;
-}
+
+} */
 
 .image1 img {
     width: 323px;
     height: 287px;
-    margin: 5px 5px;
+    padding: 5px 5px;
     object-fit: cover;
+    border: 1px solid black;
+
 }
 
 .date {
