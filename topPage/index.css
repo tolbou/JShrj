@@ -5,7 +5,7 @@
 }
 
 body {
-    max-width: 390px;
+    max-width: 100%;
     font-family: 'Varta', sans-serif;
     overflow-x: hidden;
 }
