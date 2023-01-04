@@ -7,6 +7,7 @@
 body {
     width: 390px;
     font-family: 'Varta', sans-serif;
+    overflow-x: hidden;
 }
 
 .header {
@@ -83,7 +84,7 @@ nav ul li a:hover {
 
 .contents::-webkit-scrollbar {
     width: 10px;
-    height: 3px;
+    height: 5px;
 }
 
 .contents::-webkit-scrollbar-track {
