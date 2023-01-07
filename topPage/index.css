@@ -131,9 +131,16 @@ nav ul li a:hover {
 }
 
 
-.contents-title {
+.contents-title1 {
     width: 100%;
-    height: 115px;
+    height: 130px;
+    /* margin: 0px 30px 20px 30px; */
+    margin: 0 auto;
+}
+
+.contents-title2 {
+    width: 100%;
+    height: 130px;
     /* margin: 0px 30px 20px 30px; */
     margin: 0 auto;
 }
@@ -144,7 +151,14 @@ nav ul li a:hover {
 } */
 
 
-.contents-title h2 {
+.contents-title1 h2 {
+    width: 100%;
+    color: #000000;
+    line-height: 36px;
+    font-size: 33px;
+}
+
+.contents-title2 h2 {
     width: 100%;
     color: #000000;
     line-height: 34.5px;
