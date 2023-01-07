@@ -63,7 +63,7 @@ nav ul li a:hover {
 
 .borde {
     margin-top: 30px;
-    margin-left: 15px;
+    margin-left: 20px;
     border-top: black 1px solid;
     width: 350px;
 
@@ -96,30 +96,30 @@ nav ul li a:hover {
 }
 
 .image1 img {
-    height: 500px;
+    height: 470px;
     width: 350px;
-    object-fit: cover;
+    /* object-fit: cover; */
     margin-bottom: 10px;
 }
 
 .image2 img {
-    height: 500px;
+    height: 440px;
     width: 350px;
-    object-fit: cover;
+    /* object-fit: cover; */
     margin-bottom: 10px;
 }
 
 .image3 img {
-    height: 400px;
+    height: 455px;
     width: 350px;
-    object-fit: cover;
+    /* object-fit: cover; */
     margin-bottom: 10px;
 }
 
 .image4 img {
-    height: 400px;
+    height: 455px;
     width: 350px;
-    object-fit: cover;
+    /* object-fit: cover; */
     margin-bottom: 10px;
 }
 
@@ -131,16 +131,16 @@ nav ul li a:hover {
 
 .imageA {
     width: 170px;
-    height: 220px;
+    height: 226px;
     margin-right: 10px;
     margin-left: 20px;
-    object-fit: cover;
+    /* object-fit: cover; */
 }
 
 .imagetwin .imageB {
     width: 170px;
-    height: 220px;
-    object-fit: cover;
+    height: 226px;
+    /* object-fit: cover; */
 }
 
 .date {
