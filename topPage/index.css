@@ -70,14 +70,14 @@ nav ul li a:hover {
 }
 
 .explaination {
-    width: 230px;
+    width: 350px;
     text-align: initial;
     margin-bottom: 30px;
 }
 
 .explaination p {
 
-    width: 100%;
+    width: 240px;
     margin-left: 75px;
     font-size: 10px;
     font-family: 'Sawarabi Gothic', sans-serif;
@@ -101,7 +101,7 @@ nav ul li a:hover {
     width: 170px;
     height: 220px;
     margin-right: 10px;
-    margin-left: 15px;
+    margin-left: 20px;
     object-fit: cover;
 }
 
