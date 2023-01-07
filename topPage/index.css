@@ -12,10 +12,9 @@ body {
     overflow-x: hidden;
 }
 
-
 .header {
     width: 100%;
-    height: 30px;
+    height: 70px;
     text-align: center;
 }
 
@@ -28,7 +27,7 @@ nav ul {
     justify-content: space-between;
     list-style: none;
     text-align: center;
-    margin: 18px 15px;
+    margin: 18px 0px 18px 17px;
 
 }
 
@@ -86,7 +85,7 @@ nav ul li a:hover {
     /* 以下の設定は必須 */
     scroll-snap-type: x mandatory;
     width: 100%;
-    height: 650px;
+    height: 500px;
     overflow-x: scroll;
     display: flex;
     -webkit-overflow-scrolling: touch;
@@ -135,7 +134,7 @@ nav ul li a:hover {
 .contents-title {
     width: 310px;
     height: 115px;
-    margin: 20px 30px;
+    margin: 0px 30px 20px 30px;
 }
 
 /* .contents-title h2 span {
@@ -144,7 +143,7 @@ nav ul li a:hover {
 } */
 
 
-.contents-title p {
+.contents-title h2 {
     width: 100%;
     color: #000000;
     line-height: 38px;
@@ -166,12 +165,12 @@ nav ul li a:hover {
     padding: 5px 5px;
     object-fit: cover;
     border: 1px solid black;
-
+    margin-top: 7px;
 }
 
 .date {
     margin-top: 10px;
-    font-size: 7px;
+    font-size: 13px;
 }
 
 .contents::-webkit-scrollbar-track {
@@ -188,7 +187,7 @@ nav ul li a:hover {
 
 .contents-footer {
     width: 100%;
-    height: 350px;
+    height: 450px;
     margin-top: 70px;
 }
 
@@ -208,7 +207,7 @@ nav ul li a:hover {
 
 .border {
     width: 370px;
-    height: 50px;
+    height: 70px;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     margin-left: 10px;
@@ -219,12 +218,12 @@ nav ul li a:hover {
     width: 100%;
     height: 50px;
     position: absolute;
-    top: 3px;
+    top: 12px;
 }
 
-.message p {
-    font-size: 30px;
-    margin-right: 20px;
+.message h2 {
+    font-size: 29px;
+    margin-left: 10px;
 }
 
 .footer-last {
