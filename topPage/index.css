@@ -189,10 +189,11 @@ table {
 }
 
 .message {
-    width: 200%;
+    width: 150%;
     height: 50px;
+    text-align: left;
     position: absolute;
-    top: 18px;
+    top: 15px;
 }
 
 .message h2 {
