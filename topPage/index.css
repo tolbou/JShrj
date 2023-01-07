@@ -208,7 +208,7 @@ nav ul li a:hover {
 
 .border {
     width: 370px;
-    height: 68px;
+    height: 70px;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     margin-left: 10px;
@@ -219,11 +219,11 @@ nav ul li a:hover {
     width: 100%;
     height: 50px;
     position: absolute;
-    top: 12px;
+    top: 13px;
 }
 
 .message h2 {
-    font-size: 29px;
+    font-size: 28px;
     margin-left: 10px;
 }
 
