@@ -24,6 +24,8 @@ body {
 }
 
 nav ul {
+    z-index: 9999;
+    position: fixed;
     display: flex;
     align-items: center;
     list-style: none;
@@ -55,13 +57,15 @@ nav ul li a:hover {
 
 .title {
     line-height: 38px;
-    font-size: 45px;
+    font-size: 38px;
+    font-weight: 500;
 }
 
 .borde {
-    margin: 30px 40px;
+    margin-top: 30px;
+    margin-left: 15px;
     border-top: black 1px solid;
-    width: 310px;
+    width: 350px;
 
 }
 
