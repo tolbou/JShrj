@@ -189,15 +189,15 @@ table {
 }
 
 .message {
-    width: 100%;
+    width: 200%;
     height: 50px;
     position: absolute;
     top: 18px;
 }
 
 .message h2 {
-    font-size: 28px;
-    margin-left: 5px;
+    font-size: 35px;
+    margin-left: 0px;
 }
 
 .footer-last {
