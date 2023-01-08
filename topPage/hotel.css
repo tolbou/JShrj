@@ -72,16 +72,19 @@ nav ul li a:hover {
 .image1 img {
     height: 245px;
     width: 350px;
+
+
 }
 
 .image2 img {
     height: 490px;
     width: 350px;
+
 }
 
 .explaination {
     width: 350px;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
 }
 
 .explaination p {
@@ -97,6 +100,8 @@ nav ul li a:hover {
 .image3 img {
     height: 260px;
     width: 350px;
+
+    margin-bottom: 10px;
 }
 
 /* .image4 img {
@@ -110,7 +115,6 @@ nav ul li a:hover {
 } */
 .imagetwin {
     width: 100%;
-    margin-top: 10px;
     display: flex;
 }
 
