@@ -97,7 +97,16 @@ nav ul li a:hover {
     transform: scale(1.15, 1);
 }
 
+
+
 .image3 img {
+    height: 260px;
+    width: 350px;
+
+    margin-bottom: 10px;
+}
+
+.image4 img {
     height: 260px;
     width: 350px;
 
