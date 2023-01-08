@@ -143,20 +143,22 @@ nav ul li a:hover {
 }
 
 .flore1f {
-    width: 100%;
+    width: 350px;
+    margin-left: 20px;
+    text-align: right;
 }
 
 .flore1f p {
-    margin-left: 250px;
+
     font-size: 10px;
     line-height: 12px;
     /* letter-spacing: -0.5px; */
 }
 
 
-.flore1f p span {
+/* .flore1f p span {
     margin-left: 75px;
-}
+} */
 
 /* .image5 {
     margin-top: 20px;
