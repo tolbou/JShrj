@@ -13,7 +13,7 @@ body {
 }
 
 .header {
-    height: 80px;
+    height: 70px;
     text-align: center;
 }
 
@@ -52,15 +52,15 @@ nav ul li a:hover {
 }
 
 .contents-title {
-    width: 330px;
-    height: 150px;
+    width: 340px;
+    height: 130px;
     border-bottom: black 1px solid;
     margin-left: 30px;
 }
 
 .main-title01 {
     font-family: 'Varta', sans-serif;
-    height: 44px;
+    height: 42px;
     font-size: 40px;
 }
 
