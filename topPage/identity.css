@@ -130,7 +130,7 @@ nav ul li a:hover {
     display: flex;
 }
 
-.imageA {
+.imagea {
     width: 170px;
     height: 226px;
     margin-right: 10px;
@@ -138,7 +138,7 @@ nav ul li a:hover {
     /* object-fit: cover; */
 }
 
-.imagetwin .imageB {
+.imagetwin .imageb {
     width: 170px;
     height: 226px;
     /* object-fit: cover; */
