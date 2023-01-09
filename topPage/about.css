@@ -72,14 +72,14 @@ nav ul li a:hover {
     position: relative;
 }
 
-.borders {
+/* .borders {
     margin: 0 auto;
     width: 280px;
     height: 320px;
     border-width: 1.5px;
     border-style: solid;
     border-color: black;
-}
+} */
 
 .prof-img {
     text-align: center;
@@ -91,21 +91,23 @@ nav ul li a:hover {
     height: 291px;
     object-fit: cover;
     position: relative;
+    padding: 5px 5px;
+    border: 1px black solid;
 }
 
 .explan {
-    margin: 50px;
+    margin: 70px 50px;
 }
 
 .name {
-    margin-left: 30px;
+    margin-left: 32px;
     font-size: larger;
     font-family: 'Sawarabi Gothic', sans-serif;
     transform: scale(1.15, 1);
 }
 
 .kana {
-    margin-left: 12px;
+    margin-left: 14px;
     font-family: 'Varta', sans-serif;
 }
 
@@ -129,13 +131,12 @@ table {
 .contact {
     width: 390px;
     height: auto;
-    margin-bottom: 50px;
 
 }
 
 .contact-border {
     width: 280px;
-    height: 310px;
+    height: 290px;
     border-top: 1px solid #000000;
     /* border-bottom: 2px solid #000000; */
     margin-left: 55px;
@@ -147,17 +148,17 @@ table {
 }
 
 .info {
-    margin: 52px 0px 30px 35px;
+    margin: 52px 0px 30px 10px;
     font-size: 10px;
 }
 
 .name_contact {
-    margin: 0px 0px 35px 35px;
+    margin: 0px 0px 35px 10px;
     font-size: 15px;
 }
 
 .contacts {
-    margin: 0px 0px 0px 35px;
+    margin: 0px 0px 0px 10px;
     font-size: 11px;
     line-height: 30px;
 }
