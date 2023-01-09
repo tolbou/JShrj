@@ -93,11 +93,13 @@ nav ul li a:hover {
     height: 245px;
     width: 350px;
     object-fit: cover;
+    margin-bottom: 30px;
 }
 
 .explaination {
     width: 350px;
     text-align: initial;
+    margin-bottom: 50px;
 
 }
 

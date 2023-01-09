@@ -38,7 +38,6 @@ nav ul li a {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    ;
     color: #000;
     transition: all 0.3s;
 }
@@ -78,12 +77,13 @@ nav ul li a:hover {
     height: 350px;
     width: 350px;
     object-fit: cover;
+    margin-bottom: 40px;
 }
 
 .explaination {
     width: 350px;
     text-align: initial;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
 }
 
 .explaination p {
@@ -130,7 +130,7 @@ nav ul li a:hover {
     display: flex;
 }
 
-.imagea {
+.imageA {
     width: 170px;
     height: 226px;
     margin-right: 10px;
@@ -138,7 +138,7 @@ nav ul li a:hover {
     /* object-fit: cover; */
 }
 
-.imagetwin .imageb {
+.imagetwin .imageB {
     width: 170px;
     height: 226px;
     /* object-fit: cover; */
