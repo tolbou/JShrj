@@ -108,7 +108,7 @@ input[type="radio"] {
     color: white;
     list-style: none;
     font-family: 'Varta', sans-serif;
-    margin: 15px 5px 5px 5px;
+    margin: 20px 5px 5px 5px;
 }
 
 ol ul li a {
@@ -247,5 +247,4 @@ ol ul li a:hover {
 
 .footer-last p {
     font-size: 15px;
-    font-family: 'Varta', sans-serif;
 }

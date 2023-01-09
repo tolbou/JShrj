@@ -5,20 +5,27 @@
 }
 
 body {
-    max-width: 390px;
+    width: 390px;
+    max-width: 100%;
+    height: auto;
+    font-family: 'Varta', sans-serif;
     overflow-x: hidden;
 }
 
+/* ここからheader */
 .header {
     height: 80px;
     text-align: center;
 }
 
 .menu-list02 {
-    margin-left: 100px;
+    display: block;
+    margin-left: 110px;
 }
 
 nav ul {
+    z-index: 9999;
+    position: fixed;
     display: flex;
     align-items: center;
     list-style: none;
