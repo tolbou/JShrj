@@ -1,4 +1,6 @@
-* {
+@@ -1,
+248+1,
+248 @@ * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -63,7 +65,7 @@ input[type="radio"] {
     padding-left: 15px;
 }
 
-.filters li{
+.filters li {
     font-family: 'Varta', sans-serif;
 }
 
@@ -104,12 +106,13 @@ input[type="radio"] {
     margin: 5px;
 }
 
-.targets-txt2{
+.targets-txt2 {
     color: white;
     font-size: 11px;
     list-style: none;
     font-family: 'Varta', sans-serif;
     margin: 5px;
+    margin: 10px;
 }
 
 ol ul li a {
@@ -165,9 +168,9 @@ ol ul li a:hover {
     overflow-x: hidden;
 }
 
-@media screen and ( min-width: 900px ) {
+@media screen and (min-width: 900px) {
     .loop_css3 div {
-      font-size: 4rem;
+        font-size: 4rem;
     }
 }
 
@@ -178,7 +181,7 @@ ol ul li a:hover {
     backface-visibility: hidden;
     will-change: transform;
 }
-  
+
 .message div:nth-child(even) {
     -webkit-animation: loop2 30s linear infinite;
     animation: loop2 30s linear infinite;
@@ -186,53 +189,57 @@ ol ul li a:hover {
 
 @-webkit-keyframes loop {
     0% {
-      -webkit-transform: translateX(100%);
-      -ms-transform: translateX(100%);
-      transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+        transform: translateX(100%);
     }
+
     to {
-      -webkit-transform: translateX(-100%);
-      -ms-transform: translateX(-100%);
-      transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        transform: translateX(-100%);
     }
 }
 
 @keyframes loop {
     0% {
-      -webkit-transform: translateX(100%);
-      -ms-transform: translateX(100%);
-      transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+        transform: translateX(100%);
     }
+
     to {
-      -webkit-transform: translateX(-100%);
-      -ms-transform: translateX(-100%);
-      transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        transform: translateX(-100%);
     }
 }
 
 @-webkit-keyframes loop2 {
     0% {
-      -webkit-transform: translateX(0);
-      -ms-transform: translateX(0);
-      transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
     }
+
     to {
-      -webkit-transform: translateX(-200%);
-      -ms-transform: translateX(-200%);
-      transform: translateX(-200%);
+        -webkit-transform: translateX(-200%);
+        -ms-transform: translateX(-200%);
+        transform: translateX(-200%);
     }
 }
 
 @keyframes loop2 {
     0% {
-      -webkit-transform: translateX(0);
-      -ms-transform: translateX(0);
-      transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
     }
+
     to {
-      -webkit-transform: translateX(-200%);
-      -ms-transform: translateX(-200%);
-      transform: translateX(-200%);
+        -webkit-transform: translateX(-200%);
+        -ms-transform: translateX(-200%);
+        transform: translateX(-200%);
     }
 }
 
@@ -244,4 +251,5 @@ ol ul li a:hover {
 
 .footer-last p {
     font-size: 15px;
+    font-family: 'Varta', sans-serif;
 }
