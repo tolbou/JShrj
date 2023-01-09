@@ -1,0 +1,494 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    font-family: 'Varta', sans-serif;
+    overflow-x: hidden;
+}
+
+.header {
+    width: 100%;
+    height: 70px;
+    text-align: center;
+}
+
+nav ul {
+    width: 350px;
+    z-index: 9999;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    text-align: center;
+    margin: 18px 0px 18px 18px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    /* padding: 0px 0px 0px 0px; */
+    transition: all 0.3s;
+}
+
+nav ul li a:hover {
+    color: #003FE0;
+
+    /* color: transparent;
+    text-stroke: 0.5px #003FE0;
+    -webkit-text-stroke: 0.5px #003FE0; */
+}
+
+.menu-list-1 {
+    font-size: 20px;
+    line-height: 11px;
+
+}
+
+.menu-list {
+    font-size: 20px;
+    letter-spacing: 0px;
+}
+
+.contact a {
+    padding: 0px 0px;
+}
+
+.header-image {
+    width: 310px;
+    margin-left: 35px;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+.header-image img {
+    width: 310px;
+    height: 92px;
+    margin-top: 17px;
+    padding-bottom: 17px;
+
+}
+
+/* contents */
+
+.contents {
+    margin-top: 30px;
+    /* 以下の設定は必須 */
+    scroll-snap-type: x mandatory;
+    width: 100%;
+    height: 500px;
+    overflow-x: scroll;
+    display: flex;
+    -webkit-overflow-scrolling: touch;
+    /* スマホ対応のため必須 */
+    overflow-scrolling: touch;
+    /* スマホ対応のため必須 */
+}
+
+.contents::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+}
+
+.contents::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background: #eee;
+}
+
+.contents::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #666;
+}
+
+.contents>div {
+    scroll-snap-align: center;
+    height: 100%;
+    width: 100%;
+    flex: none;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+}
+
+.contents1 {
+    width: 350px;
+    height: 100%;
+    margin-left: 20px;
+    text-align: center;
+    margin: 0 auto;
+    scroll-snap-align: center;
+    border-color: #060606;
+
+}
+
+
+.contents-title {
+    width: 100%;
+    height: 130px;
+    /* margin: 0px 30px 20px 30px; */
+    margin: 0 auto;
+}
+
+
+/* .contents-title h2 span {
+    color: #000000;
+    font-size: 15px;
+} */
+
+
+.contents-title h2 {
+    width: 100%;
+    color: #000000;
+    line-height: 36px;
+    font-size: 33px;
+}
+
+
+
+/* 
+.image1 {
+    width: 336px;
+    height: 299px;
+
+
+} */
+
+.image1 img {
+    width: 320px;
+    height: 287px;
+    padding: 5px 5px;
+    object-fit: cover;
+    border: 1px solid black;
+    margin-top: 7px;
+}
+
+.date {
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.contents::-webkit-scrollbar-track {
+    background: #bababa;
+    border-radius: 5px;
+}
+
+.contents::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border-radius: 5px;
+}
+
+/* footer */
+
+.contents-footer {
+    width: 100%;
+    height: 450px;
+    margin-top: 70px;
+}
+
+.footer-image img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.footer {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    position: relative;
+    color: black;
+}
+
+.border {
+    width: 370px;
+    height: 70px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.message {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    text-align: left;
+    position: absolute;
+    top: 9px;
+    overflow: hidden;
+}
+
+.message div {
+    flex: 0 0 auto;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Varta', sans-serif;
+    white-space: nowrap;
+    overflow-x: hidden;
+}
+
+@media screen and (min-width: 900px) {
+    .loop_css3 div {
+        font-size: 4rem;
+    }
+}
+
+.message div:nth-child(odd) {
+    -webkit-animation: loop 30s -15s linear infinite;
+    animation: loop 30s -15s linear infinite;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    will-change: transform;
+}
+
+.message div:nth-child(even) {
+    -webkit-animation: loop2 30s linear infinite;
+    animation: loop2 30s linear infinite;
+}
+
+@-webkit-keyframes loop {
+    0% {
+        -webkit-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+
+    to {
+        -webkit-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes loop {
+    0% {
+        -webkit-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+
+    to {
+        -webkit-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+}
+
+@-webkit-keyframes loop2 {
+    0% {
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    to {
+        -webkit-transform: translateX(-200%);
+        -ms-transform: translateX(-200%);
+        transform: translateX(-200%);
+    }
+}
+
+@keyframes loop2 {
+    0% {
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    to {
+        -webkit-transform: translateX(-200%);
+        -ms-transform: translateX(-200%);
+        transform: translateX(-200%);
+    }
+}
+
+.footer-last {
+    width: 100%;
+    height: 10px;
+    margin-top: 40px;
+}
+
+.footer-last p {
+    font-size: 15px;
+}
+
+/* ロードアニメーション */
+
+/* #loading-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    z-index: 10;
+} */
+
+/* .circle {
+    position: relative;
+    width: 100%;
+    height: 160px;
+    margin-top: 130px;
+} */
+
+/* span {
+    color: aliceblue;
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    left: calc(50% - 10px);
+    width: 20px;
+    height: 80px;
+    font-size: 16px;
+    text-align: center;
+    transform-origin: bottom center;
+} */
+
+/* span:nth-child(1) {
+    animation: letterRotate1 3s ease-in-out infinite;
+}
+
+@keyframes letterRotate1 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(300deg);
+    }
+}
+
+span:nth-child(2) {
+    animation: letterRotate2 3s ease-in-out infinite;
+}
+
+@keyframes letterRotate2 {
+    0% {
+        transform: rotate(30deg);
+    }
+
+    100% {
+        transform: rotate(330deg);
+    }
+}
+
+span:nth-child(3) {
+    animation: letterRotate3 3s ease-in-out infinite;
+}
+
+@keyframes letterRotate3 {
+    0% {
+        transform: rotate(60deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+span:nth-child(4) {
+    animation: letterRotate4 3s ease-in-out infinite;
+}
+
+@keyframes letterRotate4 {
+    0% {
+        transform: rotate(90deg);
+    }
+
+    100% {
+        transform: rotate(390deg);
+    }
+}
+
+span:nth-child(5) {
+    animation: letterRotate5 3s ease-in-out infinite;
+}
+
+@keyframes letterRotate5 {
+    0% {
+        transform: rotate(120deg);
+    }
+
+    100% {
+        transform: rotate(420deg);
+    }
+}
+
+span:nth-child(6) {
+    animation: letterRotate6 3s ease-in-out infinite;
+}
+
+@keyframes letterRotate6 {
+    0% {
+        transform: rotate(150deg);
+    }
+
+    100% {
+        transform: rotate(450deg);
+    }
+}
+
+span:nth-child(7) {
+    animation: letterRotate7 3s ease-in-out infinite;
+}
+
+@keyframes letterRotate7 {
+    0% {
+        transform: rotateZ(180deg);
+    }
+
+    100% {
+        transform: rotateZ(480deg);
+    }
+}
+
+span:nth-child(8) {
+    animation: letterRotate8 3s ease-in-out infinite;
+}
+
+@keyframes letterRotate8 {
+    0% {
+        transform: rotate(210deg);
+    }
+
+    100% {
+        transform: rotate(510deg);
+    }
+}
+
+span:nth-child(9) {
+    animation: letterRotate9 3s ease-in-out infinite;
+}
+
+@keyframes letterRotate9 {
+    0% {
+        transform: rotate(240deg);
+    }
+
+    100% {
+        transform: rotate(540deg);
+    }
+}
+
+span:nth-child(10) {
+    animation: letterRotate10 3s ease-in-out infinite;
+}
+
+@keyframes letterRotate10 {
+    0% {
+        transform: rotate(270deg);
+    }
+
+    100% {
+        transform: rotate(570deg);
+    }
+} */
